@@ -1,0 +1,31 @@
+<suite thread-count="1" verbose="1" name="API automation">
+
+
+
+<!--    <test name="Purchase Product">-->
+
+<!--        <classes>-->
+<!--            <class name="TestRunner.CustomerTestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+      <test name="API Login ">
+           <classes>
+             <class name="TestRunner.LoginTestRunner"/>
+         </classes>
+      </test>
+
+<!--    -->
+<!--    <test name="Purchase Product">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="purchase"></include>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="TestRunner.ProductPurchaseTestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
+

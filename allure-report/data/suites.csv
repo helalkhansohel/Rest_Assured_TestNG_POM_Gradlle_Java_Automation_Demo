@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 26 11:01:10 BDT 2023","Fri May 26 11:01:11 BDT 2023","704","API automation","API Login ","TestRunner.LoginTestRunner","TestRunner.LoginTestRunner","PutAPITest","PutAPITest",""
+"passed","Fri May 26 11:01:12 BDT 2023","Fri May 26 11:01:13 BDT 2023","1274","API automation","API Login ","TestRunner.LoginTestRunner","TestRunner.LoginTestRunner","LogInAPITest","LoginTest",""
+"passed","Fri May 26 11:01:11 BDT 2023","Fri May 26 11:01:12 BDT 2023","689","API automation","API Login ","TestRunner.LoginTestRunner","TestRunner.LoginTestRunner","DeleteAPITest","DeleteAPITest",""
+"passed","Fri May 26 11:01:08 BDT 2023","Fri May 26 11:01:10 BDT 2023","1683","API automation","API Login ","TestRunner.LoginTestRunner","TestRunner.LoginTestRunner","PostAPITest","PostAPITest",""
+"passed","Fri May 26 11:01:13 BDT 2023","Fri May 26 11:01:14 BDT 2023","732","API automation","API Login ","TestRunner.LoginTestRunner","TestRunner.LoginTestRunner","FileUploadTest","File upload",""
+"passed","Fri May 26 11:01:10 BDT 2023","Fri May 26 11:01:10 BDT 2023","263","API automation","API Login ","TestRunner.LoginTestRunner","TestRunner.LoginTestRunner","GetAPITest","GetAPITest",""
+"passed","Fri May 26 11:01:11 BDT 2023","Fri May 26 11:01:11 BDT 2023","720","API automation","API Login ","TestRunner.LoginTestRunner","TestRunner.LoginTestRunner","PatchAPITest","PatchAPITest",""

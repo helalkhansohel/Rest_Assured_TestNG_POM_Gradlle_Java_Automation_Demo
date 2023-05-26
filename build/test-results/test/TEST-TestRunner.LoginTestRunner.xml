@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestRunner.LoginTestRunner" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-05-26T05:01:08" hostname="HELAL-KHAN-SOHE" time="6.222">
+  <properties/>
+  <testcase name="PostAPITest" classname="TestRunner.LoginTestRunner" time="1.77"/>
+  <testcase name="GetAPITest" classname="TestRunner.LoginTestRunner" time="0.264"/>
+  <testcase name="PutAPITest" classname="TestRunner.LoginTestRunner" time="0.706"/>
+  <testcase name="PatchAPITest" classname="TestRunner.LoginTestRunner" time="0.721"/>
+  <testcase name="DeleteAPITest" classname="TestRunner.LoginTestRunner" time="0.69"/>
+  <testcase name="LogInAPITest" classname="TestRunner.LoginTestRunner" time="1.275"/>
+  <testcase name="FileUploadTest" classname="TestRunner.LoginTestRunner" time="0.733"/>
+  <system-out><![CDATA[-------------- Post API ------------------------------------
+HTTP status code: 201
+ReasonPhrase: Created
+response body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+{"id":101,"title":"foo","body":"bar","userId":1}
+foo
+Updated!
+[{"baseURL":"https:\/\/customer-test-api.herokuapp.com","token":"testvallue"}]-------------- Get API ------------------------------------
+HTTP status code: 200
+ReasonPhrase: OK
+response body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+{"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto","userId":1}
+sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+HTTP status code: 200
+ReasonPhrase: OK
+response body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 1
+}
+{"id":1,"title":"foo","body":"bar","userId":1}
+foo
+-------------- Patch API ------------------------------------
+HTTP status code: 200
+ReasonPhrase: OK
+response body: {
+  "userId": 1,
+  "id": 1,
+  "title": "foo",
+  "body": "bar"
+}
+{"id":1,"title":"foo","body":"bar","userId":1}
+foo
+-------------- Delete API ------------------------------------
+HTTP status code: 200
+ReasonPhrase: OK
+response body: {}
+{}
+org.json.JSONException: JSONObject["title"] not found.
+-------------- Login API ------------------------------------
+HTTP status code: 503
+ReasonPhrase: Service Unavailable
+response body: <!DOCTYPE html>
+	<html>
+	  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Application Error</title>
+		<style media="screen">
+		  html,body,iframe {
+			margin: 0;
+			padding: 0;
+		  }
+		  html,body {
+			height: 100%;
+			overflow: hidden;
+		  }
+		  iframe {
+			width: 100%;
+			height: 100%;
+			border: 0;
+		  }
+		</style>
+	  </head>
+	  <body>
+		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
+	  </body>
+	</html>
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+HTTP status code: 201
+ReasonPhrase: Created
+Response body: {
+  "id": 101
+}
+{"id":101}
+org.json.JSONException: JSONObject["title"] not found.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
